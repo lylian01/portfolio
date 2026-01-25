@@ -1,5 +1,6 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
+import eng from "src/img/eng-cer.jpg";
 
 export default function Certificate(){
     const [selectedImage, setSelectedImage] = useState(null);
@@ -9,7 +10,7 @@ export default function Certificate(){
         <div className='grid grid-cols-3'>
             <div className='mx-auto'>
                 <img 
-                        src="src/img/eng-cer.jpg"
+                        src={eng}
                         alt="English Certificate"  
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition '
                         onClick={() => setSelectedImage('src/img/eng-cer.jpg')}
