@@ -2,7 +2,7 @@ import { X } from 'lucide-react';
 import { useState } from 'react';
 import eng from "../img/eng-cer.jpg";
 import japan from "../img/japan-cer.jpg";
-import python from "src/img/python-cer.jpg" ;
+import python from "../img/python-cer.jpg" ;
 
 
 export default function Certificate(){

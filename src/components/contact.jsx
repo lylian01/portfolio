@@ -68,7 +68,7 @@ export default function Contact (){
             <Globe className="w-6 h-6 text-gray-700" />
             <p className="text-lg">
                 <span className="font-semibold">Portfolio:</span>{" "}
-                <a href="https://www.reallygreasite.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                <a href="https://portfolio-bice-five-nsfs23lj4s.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                 portfolio
                 </a>
             </p>
