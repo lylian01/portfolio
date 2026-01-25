@@ -16,7 +16,7 @@ export default function Certificate(){
                         src={eng}
                         alt="English Certificate"  
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition '
-                        onClick={() => setSelectedImage({eng})}
+                        onClick={() => setSelectedImage(`${eng}`)}
                     />
                 <p className="text-2xl mt-5 mb-2">English - TOEIC </p>
                 <p className="text-xl">Test Date : 12/2024</p>
@@ -26,7 +26,7 @@ export default function Certificate(){
                         src= {japan}
                         alt="Japanese Certificate" 
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition'
-                        onClick={() => setSelectedImage({japan})}
+                        onClick={() => setSelectedImage(`${japan}`)}
                     />
                 <p className="text-2xl mt-5 mb-2">Japanese</p>
                 <p className="text-xl">Test Date : 07/2025</p>
@@ -36,7 +36,7 @@ export default function Certificate(){
                         src={python}
                         alt="Python Certificate"  
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition'
-                        onClick={() => setSelectedImage({python})}
+                        onClick={() => setSelectedImage(`${python}`)}
                     />
                 <p className="text-2xl mt-5 mb-2">Python</p>
                 <p className="text-xl">Issue date : 10/2025</p>
