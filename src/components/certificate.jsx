@@ -1,6 +1,6 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
-import eng from "./img/eng-cer.jpg";
+import eng from "../img/eng-cer.jpg";
 
 export default function Certificate(){
     const [selectedImage, setSelectedImage] = useState(null);
