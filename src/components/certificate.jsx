@@ -1,6 +1,9 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
 import eng from "../img/eng-cer.jpg";
+import japan from "../img/japan-cer.jpg";
+import python from "src/img/python-cer.jpg" ;
+
 
 export default function Certificate(){
     const [selectedImage, setSelectedImage] = useState(null);
@@ -13,27 +16,27 @@ export default function Certificate(){
                         src={eng}
                         alt="English Certificate"  
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition '
-                        onClick={() => setSelectedImage('src/img/eng-cer.jpg')}
+                        onClick={() => setSelectedImage({eng})}
                     />
                 <p className="text-2xl mt-5 mb-2">English - TOEIC </p>
                 <p className="text-xl">Test Date : 12/2024</p>
             </div>
             <div className='mx-auto'>
                 <img 
-                        src="src/img/japan-cer.jpg" 
+                        src= {japan}
                         alt="Japanese Certificate" 
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition'
-                        onClick={() => setSelectedImage('src/img/japan-cer.jpg')}
+                        onClick={() => setSelectedImage({japan})}
                     />
                 <p className="text-2xl mt-5 mb-2">Japanese</p>
                 <p className="text-xl">Test Date : 07/2025</p>
             </div>
             <div className='mx-auto'>
                 <img 
-                        src="src/img/python-cer.jpg" 
+                        src={python}
                         alt="Python Certificate"  
                         className='h-30 object-cover rounded cursor-zoom-in hover:opacity-80 transition'
-                        onClick={() => setSelectedImage('src/img/python-cer.jpg')}
+                        onClick={() => setSelectedImage({python})}
                     />
                 <p className="text-2xl mt-5 mb-2">Python</p>
                 <p className="text-xl">Issue date : 10/2025</p>
