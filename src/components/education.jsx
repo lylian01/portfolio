@@ -1,5 +1,6 @@
 import { X } from 'lucide-react';
 import { useState } from 'react';
+import huflit from "../img/huflit-cer.jpg" ;
 
 export default function Education() {
     const [selectedImage, setSelectedImage] = useState(null);
@@ -19,10 +20,10 @@ export default function Education() {
                 <p className='text-xl mt-2'>GPA : 7.41 / 10</p>
               </div>
               <img 
-                    src="src/img/ensg-cer.jpg" 
+                    src={huflit}
                     alt="HUFLIT Certificate"  
                     className='h-20 object-cover rounded cursor-zoom-in hover:opacity-80 transition '
-                    onClick={() => setSelectedImage('src/img/huflit-cer.jpg')}
+                    onClick={() => setSelectedImage(`${huflit}`)}
                 />
             </div>
             <hr className='mt-3'/>
@@ -34,12 +35,12 @@ export default function Education() {
                 <p className='text-xl mt-2'>Year: 07/2025 - 12/2025</p>
                 <p className='text-xl mt-2'>Course : Frontend development with ReactJS</p>
               </div>
-               <img 
+               {/* <img 
                     src="src/img/t3h-cer.jpg" 
                     alt="T3H Certificate"  
                     className='h-20 object-cover rounded cursor-zoom-in hover:opacity-80 transition'
                     onClick={() => setSelectedImage('src/img/t3h-cer.jpg')}
-                />
+                /> */}
             </div>
           </div>
       </div>

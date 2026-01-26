@@ -6,6 +6,7 @@ import Education from './components/education.jsx';
 import Certificate from './components/certificate.jsx';
 import Experinece from './components/experience.jsx';
 import Project from './components/project.jsx';
+import avata from './img/avata.jpg';
 
 function App() {
   const skills = ["VB.NET","C#","Python (basic)","HTML","CSS","JavaScript","ReactJS","Bootstrap","TailwindCSS","SQL Server","Oracle Database"];
@@ -13,11 +14,15 @@ function App() {
                 ,"#FF6868","#00FF9C","#FF0087","#B6F500","#FF0060","#08CB00"
                ];
   return <>
-    <div className="w-full grid grid-cols-1 lg:grid-cols-12 px-15 pt-15 pb-5"> 
-      <div className='lg:col-span-4 '> 
-        <h5>sdsd</h5>
+    <div className="w-full grid grid-cols-1 lg:grid-cols-12 px-15 pt-10 pb-5"> 
+      <div className='lg:col-span-4'> 
+        <img 
+              src= {avata}
+              alt="avata " 
+              className='object-cover rounded-t-full border-2 border-amber-400 h-150 '
+          />
       </div>
-      <div className='lg:col-span-8'>  
+      <div className='lg:col-span-8 pt-5'>  
         <Name />
         <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Frontend Engineer</div>
         <p className='text-2xl mt-4 indent-8'>
