@@ -8,7 +8,7 @@ export default function Education() {
     return <>
     <div className='grid grid-cols-1 lg:grid-cols-8 '>
       <div className='lg:col-span-2 pl-12'>
-        <p className='font-bold text-4xl  '>Education</p>
+        <p className='font-bold text-4xl mb-3'>Education</p>
       </div>
       <div className='lg:col-span-6 '>
           <div className='py-2'>

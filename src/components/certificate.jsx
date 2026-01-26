@@ -10,8 +10,8 @@ export default function Certificate(){
     return<>
     <div className="">
         <p className="text-4xl font-bold text-center my-10">Certificate</p>
-        <div className='grid grid-cols-3'>
-            <div className='mx-auto'>
+        <div className='grid grid-cols-1 lg:grid-cols-3'>
+            <div className='mx-auto mb-6 text-center lg:mb-0 lg:text-left'>
                 <img 
                         src={eng}
                         alt="English Certificate"  
@@ -21,7 +21,7 @@ export default function Certificate(){
                 <p className="text-2xl mt-5 mb-2">English - TOEIC </p>
                 <p className="text-xl">Test Date : 12/2024</p>
             </div>
-            <div className='mx-auto'>
+            <div className='mx-auto mb-6 lg:mb-0'>
                 <img 
                         src= {japan}
                         alt="Japanese Certificate" 

@@ -108,12 +108,12 @@ export default function Project (){
                 )}
             </div>
 
-            <div className="px-6 py-4">
-                <div className="flex items-center justify-between mb-2">
-                <h3 className="text-2xl font-bold">
+            <div className="px-6 py-4 ">
+                <div className=" mb-2 grid grid-cols-1 lg:grid-cols-8">
+                <h3 className="text-2xl font-bold lg:col-span-6">
                     {activeProject.title}
                 </h3>
-                <span className="text-xl">
+                <span className="text-xl lg:col-span-2 text-end">
                     ({activeProject.year})
                 </span>
                 </div>

@@ -31,9 +31,9 @@ function App() {
         <div className='mt-5'>
           <Contact />
         </div> 
-        <div className='mt-2 pl-0 p-4 grid grid-cols-6 w-fit'>
+        <div className='mt-2 pl-0 p-4 flex flex-wrap gap-1'>
             {skills.map((skill,index)=>(
-              <span key={index} className='rounded-full m-2 px-1 py-1 flex justify-center items-center' style={{border:`2px solid ${colors[index]}`}}>{skill}</span>
+              <span key={index} className='rounded-full m-2 px-4 py-1 flex justify-center items-center' style={{border:`2px solid ${colors[index]}`}}>{skill}</span>
             ))}
         </div>
       </div>
