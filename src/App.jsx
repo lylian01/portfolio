@@ -14,7 +14,7 @@ function App() {
                 ,"#FF6868","#00FF9C","#FF0087","#B6F500","#FF0060","#08CB00"
                ];
   return <>
-    <div className="w-full grid grid-cols-1 lg:grid-cols-12 px-15 pt-10 pb-5"> 
+    <div className="w-full grid grid-cols-1 lg:grid-cols-12 px-15 pt-10 pb-4"> 
       <div className='lg:col-span-4'> 
         <img 
               src= {avata}
@@ -25,13 +25,13 @@ function App() {
       <div className='lg:col-span-8 pt-3'>  
         <Name />
         <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Fresher Frontend Developer</div>
-        <p className='text-2xl mt-4 indent-8'>
+        <p className='text-2xl mt-3 indent-8'>
           Fresher Frontend Developer with a solid foundation in HTML, CSS, JavaScript, and ReactJS. I focus on building clean, responsive user interfaces and writing maintainable code through real project tasks. Starting from Frontend, my long-term goal is to grow into a Fullstack Developer by gradually expanding my backend knowledge while continuing to contribute reliably as a Frontend developer.
         </p> 
-        <div className='mt-4'>
+        <div className='mt-3'>
           <Contact />
         </div> 
-        <div className='mt-1 pl-0 p-4 flex flex-wrap gap-1'>
+        <div className=' pl-0 p-4 flex flex-wrap gap-1'>
             {skills.map((skill,index)=>(
               <span key={index} className='rounded-full m-2 px-4 py-1 flex justify-center items-center' style={{border:`2px solid ${colors[index]}`}}>{skill}</span>
             ))}

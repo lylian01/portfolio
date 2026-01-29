@@ -2,7 +2,7 @@
 export default function Contact (){
     return <>
     <p className=' font-bold text-2xl'>Contact</p>
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 p-2 max-w-4xl mx-auto">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 p-1 max-w-4xl mx-auto">
         <div>
             <div className="flex items-center gap-3 mt-2">
             <Calendar className="w-6 h-6 " />
