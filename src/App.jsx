@@ -26,7 +26,7 @@ function App() {
         <Name />
         <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Fresher Frontend Developer</div>
         <p className='text-2xl mt-4 indent-8'>
-          A WinForms Developer with over one year of experience, recognized for adaptability, eagerness to learn, and continuous self-improvement. I am seeking new challenges as a Software Developer, starting in a Fresher Frontend position to build a solid foundation and develop into a Full Stack Developer within three years.
+          Fresher Frontend Developer with a solid foundation in HTML, CSS, JavaScript, and ReactJS. I focus on building clean, responsive user interfaces and writing maintainable code through real project tasks. Starting from Frontend, my long-term goal is to grow into a Fullstack Developer by gradually expanding my backend knowledge while continuing to contribute reliably as a Frontend developer.
         </p> 
         <div className='mt-5'>
           <Contact />
