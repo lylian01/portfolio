@@ -24,7 +24,7 @@ function App() {
       </div>
       <div className='lg:col-span-8 pt-5'>  
         <Name />
-        <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Frontend Engineer</div>
+        <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Fresher Frontend Developer</div>
         <p className='text-2xl mt-4 indent-8'>
           A WinForms Developer with over one year of experience, recognized for adaptability, eagerness to learn, and continuous self-improvement. I am seeking new challenges as a Software Developer, starting in a Fresher Frontend position to build a solid foundation and develop into a Full Stack Developer within three years.
         </p> 
