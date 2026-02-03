@@ -15,14 +15,14 @@ function App() {
                ];
   return <>
     <div className="w-full grid grid-cols-1 lg:grid-cols-12 px-15 pt-10 pb-4"> 
-      <div className='lg:col-span-4'> 
+      <div className='mr-3 lg:col-span-4 '> 
         <img 
               src= {avata}
               alt="avata " 
               className='object-cover rounded-t-full border-2 border-amber-400 h-150 '
           />
       </div>
-      <div className='lg:col-span-8 pt-3'>  
+      <div className='lg:col-span-8 pt-3 '>  
         <Name />
         <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Fresher Frontend Developer</div>
         <p className='text-2xl mt-3 indent-8'>

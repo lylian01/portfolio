@@ -40,7 +40,7 @@ export default function Experinece (){
                 Data entry & software support
                 </h3>
                 <span className="text-base text-gray-500">
-                10/2025 - 01/2026
+                10/2024 - 01/2026
                 </span>
             </div>
 
