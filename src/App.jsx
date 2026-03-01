@@ -24,9 +24,11 @@ function App() {
       </div>
       <div className='lg:col-span-8 pt-3 '>  
         <Name />
-        <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Fresher Frontend Developer</div>
-        <p className='text-2xl mt-3 indent-8'>
-          Fresher Frontend Developer with a solid foundation in HTML, CSS, JavaScript, and ReactJS. I focus on building clean, responsive user interfaces and writing maintainable code through real project tasks. Starting from Frontend, my long-term goal is to grow into a Fullstack Developer by gradually expanding my backend knowledge while continuing to contribute reliably as a Frontend developer.
+        <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>WEB Developer</div>
+        <p className='text-xl mt-3 indent-8'>
+          Full-Stack Oriented Developer with experience in both enterprise and personal project environments.
+          <p></p> Experienced in developing and maintaining business applications using .NET, Entity Framework, and Oracle, delivering feature enhancements and ensuring stable production releases.
+          <p></p>On the frontend side, skilled in HTML5, CSS3, responsive design, and ReactJS. Built interactive applications such as a Quiz System and Flashcard Platform with REST API integration and structured state management. Strong in requirement analysis, debugging, and delivering clean, user-focused solutions.
         </p> 
         <div className='mt-3'>
           <Contact />
@@ -47,7 +49,7 @@ function App() {
       <Certificate />
     </div>
 
-    <div className="flex items-center justify-center my-10">
+    <div className="flex items-center justify-center my-5">
       <span className="w-20 h-px bg-gray-300"></span>
       <div className="mx-4 flex items-center justify-center w-10 h-10 
                       rounded-full border border-gray-300 
@@ -57,7 +59,7 @@ function App() {
       <span className="w-20 h-px bg-gray-300"></span>
     </div>
 
-    <div className='px-15 py-5'>
+    <div className='px-10 py-5'>
       <Experinece/>
     </div>
 
