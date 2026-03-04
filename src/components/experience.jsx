@@ -21,11 +21,11 @@ export default function Experinece (){
             </p>
 
             <ul className="list-disc pl-5 space-y-2 text-gray-700 text-lg mb-3">
-                <li>Developed and enhanced VB WinForms applications in an enterprise environment, delivering 15–20 feature
-                    updates monthly or handling 1–2 major module upgrades or version migrations</li>
-                <li>Resolved system and logic issues by analyzing requirements and debugging effectively, working with Oracle
-                    Database and Entity Framework while performing self-testing before QA to ensure stable production releases
-                    and optimized performance</li>
+                <li>Maintained and enhanced VB WinForms enterprise applications, implementing 15–20 new features and minor enhancements per month according to detailed design documents and client specifications.</li>
+                <li>Contributed to 2–3 major version upgrades per month, supporting system improvements, module adjustments, and ensuring smooth deployment in production environments.</li>
+                <li>Worked with Oracle Database and Entity Framework to handle data operations, maintain data integrity, and support feature implementation.</li>
+                <li>Investigated and resolved application and logic-related issues through debugging and requirement analysis to maintain system stability.</li>
+                <li>Performed self-testing before QA handover to ensure stable releases and reduce defects during testing phases.</li>
             </ul>
         </div>
     </div>
@@ -48,11 +48,10 @@ export default function Experinece (){
             </p>
 
             <ul className="list-disc pl-5 space-y-2 text-gray-700 text-lg mb-3">
-                <li>Maintained and enhanced VB WinForms enterprise applications, implementing 15–20 new features and minor enhancements per month according to detailed design documents and client specifications.</li>
-                <li>Contributed to 2–3 major version upgrades per month, supporting system improvements, module adjustments, and ensuring smooth deployment in production environments.</li>
-                <li>Worked with Oracle Database and Entity Framework to handle data operations, maintain data integrity, and support feature implementation.</li>
-                <li>Investigated and resolved application and logic-related issues through debugging and requirement analysis to maintain system stability.</li>
-                <li>Performed self-testing before QA handover to ensure stable releases and reduce defects during testing phases.</li>
+                <li>Completed short-term frontend tasks for multiple clients, building standalone webpages with HTML5, CSS3,
+                    Bootstrap 5, and JavaScript.</li>
+                <li>Contributed to frontend and backend implementation in ASP.NET MVC e-commerce projects, handling UI
+                    development and controller logic adjustments.</li>
             </ul>
         </div>
     </div>
