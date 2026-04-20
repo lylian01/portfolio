@@ -39,7 +39,7 @@ export default function Contact (){
             <p className="text-lg">
                 <span className="font-semibold">Github:</span>{" "}
                 <a href="https://github.com/lylian01?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
-                githud
+                github
                 </a>
             </p>
             </div>

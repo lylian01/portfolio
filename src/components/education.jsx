@@ -15,7 +15,7 @@ export default function Education() {
             <p className=' text-2xl font-bold'>HCMC University of Foreign Languages - Information Technology ( HUFLIT )</p>
             <div className='flex justify-between items-end'>
               <div>
-                <p className='text-xl mt-2'>Year: 09/2019 - 07/2023</p>
+                <p className='text-xl mt-2'>Year: 09/2019 - 02/2025</p>
                 <p className='text-xl mt-2'>Major: Software engineering</p>
                 <p className='text-xl mt-2'>GPA : 7.41 / 10</p>
               </div>

@@ -24,11 +24,12 @@ function App() {
       </div>
       <div className='lg:col-span-8 pt-3 '>  
         <Name />
-        <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>WEB Developer</div>
+        <div className='text-4xl mt-5 flex flex-row-reverse font-bold '>Full Stack Developer(.Net + React)</div>
         <p className='text-xl mt-3 indent-8'>
-          Full-Stack Oriented Developer with experience in both enterprise and personal project environments.
-          <p></p> Experienced in developing and maintaining business applications using .NET, Entity Framework, and Oracle, delivering feature enhancements and ensuring stable production releases.
-          <p></p>On the frontend side, skilled in HTML5, CSS3, responsive design, and ReactJS. Built interactive applications such as a Quiz System and Flashcard Platform with REST API integration and structured state management. Strong in requirement analysis, debugging, and delivering clean, user-focused solutions.
+          I started my journey as a .NET Developer working on real-world projects in an outsourcing environment, where I gained experience with C#, ASP.NET MVC, SQL Server, Oracle. This helped me understand not only how to build systems, but also how to maintain and improve them in real business scenarios.
+          With a strong interest in building complete applications, I am currently focusing on becoming a Fullstack Developer by learning ReactJS and improving my frontend development skills, alongside enhancing my English and Japanese communication.
+          I enjoy solving problems, building useful applications, and continuously learning new technologies. I believe consistency and adaptability are my biggest strengths.
+          In the next few years, my goal is to become a Fullstack .NET & React Developer who can independently develop and deliver end-to-end products.
         </p> 
         <div className='mt-3'>
           <Contact />
